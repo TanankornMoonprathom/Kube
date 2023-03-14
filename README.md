@@ -36,3 +36,22 @@
       ```
       kubectl version --client
       ```
+
+1. Install minikube
+   - Ref
+    - https://minikube.sigs.k8s.io/docs/start/
+    - download minikube.exe
+    
+      ```ruby
+      New-Item -Path 'c:<path want to install>' -Name 'minikube' -ItemType Directory -Force #create folder minikube
+      Invoke-WebRequest -OutFile 'c:<path want to install>\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing #download install to path
+      ```
+
+    - Add Path to environment variable
+      ```ruby
+      $oldPath = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVariableTarget]::Machine)
+      if ($oldPath.Split(';') -inotcontains 'C:<path folder minikube.exe>'){ `
+      [Environment]::SetEnvironmentVariable('Path', $('{0};C:<path folder minikube.exe>' -f $oldPath), [EnvironmentVariableTarget]::Machine) `
+      }
+      ```
+    - Restart Terminal

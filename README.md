@@ -32,7 +32,7 @@
       - Add Path that have kubectl.exe
       - Click OK
   
-    - Test Kubectl enable in cimmand
+    - Test Kubectl enable in command
       ```
       kubectl version --client
       ```

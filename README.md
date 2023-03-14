@@ -37,11 +37,12 @@
       kubectl version --client
       ```
 
-1. Install minikube
+2. Install minikube
    - Ref
     - https://minikube.sigs.k8s.io/docs/start/
+
     - download minikube.exe
-    
+
       ```ruby
       New-Item -Path 'c:<path want to install>' -Name 'minikube' -ItemType Directory -Force #create folder minikube
       Invoke-WebRequest -OutFile 'c:<path want to install>\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing #download install to path
@@ -55,3 +56,37 @@
       }
       ```
     - Restart Terminal
+
+3. Install Docker Desktop
+   - Ref
+    - https://docs.docker.com/desktop/install/windows-install/
+
+## Test minikube start
+1. Start a cluster using the docker driver
+   ```ruby
+   minikube start --driver=docker
+   ```
+   ![image](https://user-images.githubusercontent.com/119097663/224906660-5f08fbf8-5503-44e7-bb24-05a45ade8ab6.png)
+
+2. Run with open dashboard
+   ```ruby
+   minikube dashboard
+   ```
+   ![image](https://user-images.githubusercontent.com/119097663/224907200-c1758b1c-03a8-40b2-9d5d-258644100325.png)
+
+3. Test services
+   ```ruby
+   minikube service hello-minikube
+   ```
+   ![image](https://user-images.githubusercontent.com/119097663/224907641-f32599e8-afd0-4a9e-8bf5-f8a59c476752.png)
+
+4. Test Stop minikube
+   ```ruby
+   minikube pause
+   ```
+   ![image](https://user-images.githubusercontent.com/119097663/224907641-f32599e8-afd0-4a9e-8bf5-f8a59c476752.png)
+
+
+
+
+

@@ -74,7 +74,7 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
    ```ruby
    minikube dashboard
    ```
-   ![image](https://user-images.githubusercontent.com/119097663/224907200-c1758b1c-03a8-40b2-9d5d-258644100325.png)
+   ![image](https://user-images.githubusercontent.com/119097663/225030868-71ccdda7-bb69-4287-802b-5111ab70fe0f.png)
 
 3. Test services
    ```ruby
@@ -86,7 +86,7 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
    ```ruby
    minikube pause
    ```
-   ![image](https://user-images.githubusercontent.com/119097663/224907641-f32599e8-afd0-4a9e-8bf5-f8a59c476752.png)
+   ![image](https://user-images.githubusercontent.com/119097663/224907200-c1758b1c-03a8-40b2-9d5d-258644100325.png)
 
 ## 3. Install traefik
       1. Install Traefik Resource Definitions

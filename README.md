@@ -40,10 +40,10 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
       ```
 
 ## 2. Install minikube
-   - Ref
-    - https://minikube.sigs.k8s.io/docs/start/
+      - Ref
+      - https://minikube.sigs.k8s.io/docs/start/
 
-    - download minikube.exe
+      - download minikube.exe
 
       ```ruby
       New-Item -Path 'c:<path want to install>' -Name 'minikube' -ItemType Directory -Force #create folder minikube

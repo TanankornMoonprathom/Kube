@@ -50,14 +50,14 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
       Invoke-WebRequest -OutFile 'c:<path want to install>\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing #download install to path
       ```
 
-    - Add Path to environment variable
+      - Add Path to environment variable
       ```ruby
       $oldPath = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVariableTarget]::Machine)
       if ($oldPath.Split(';') -inotcontains 'C:<path folder minikube.exe>'){ `
       [Environment]::SetEnvironmentVariable('Path', $('{0};C:<path folder minikube.exe>' -f $oldPath), [EnvironmentVariableTarget]::Machine) `
       }
       ```
-    - Restart Terminal
+   - Restart Terminal
 
 ## 3. Install Docker Desktop
    - Ref

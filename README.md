@@ -90,9 +90,9 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
 
 ## 3. Install traefik
       1. Install Traefik Resource Definitions
-    ```
+      ```
     kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v2.9/docs/content/reference/dynamic-configuration/kubernetes-crd-definition-v1.yml
-    ```
+      ```
     ![image](https://user-images.githubusercontent.com/119097663/226110351-c7723d93-8ae9-4f29-889f-9ed8690b1473.png)
 
       2. Install RBAC for Traefik

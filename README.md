@@ -34,9 +34,8 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
       - Add Path that have kubectl.exe
       - Click OK
   
-    - Test Kubectl enable in command
+      - Test Kubectl enable in command
       ```ruby
-
       kubectl version --client
       ```
 

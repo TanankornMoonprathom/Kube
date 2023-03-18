@@ -35,7 +35,7 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
       - Click OK
   
     - Test Kubectl enable in command
-      ```
+      ```ruby
       kubectl version --client
       ```
 

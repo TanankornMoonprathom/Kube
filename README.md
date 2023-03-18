@@ -40,8 +40,8 @@ https://wakatime.com/@spcn01/projects/syzhwptxjl
       ```
 
 ## 2. Install minikube
-      - Ref
-      - https://minikube.sigs.k8s.io/docs/start/
+   - Ref
+    - https://minikube.sigs.k8s.io/docs/start/
 
       - download minikube.exe
 
